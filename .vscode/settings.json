@@ -1,0 +1,7 @@
+{
+    "haskell.serverExecutablePath": "~/.ghcup/bin/haskell-language-server-wrapper",
+    "haskell.formattingProvider": "ormolu",
+    "[haskell]": {
+      "editor.formatOnSave": true
+    },
+}
