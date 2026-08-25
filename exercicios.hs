@@ -10,3 +10,8 @@ n = a `div` length xs
 
 -- ex 3
 
+funcLast :: [Int] -> Int
+funcLast xs = last xs
+
+-- ex 4
+
