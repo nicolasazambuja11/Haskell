@@ -10,8 +10,15 @@ n = a `div` length xs
 
 -- ex 3
 
-funcLast :: [Int] -> Int
-funcLast xs = last xs
+last2 :: [Int] -> Int
+last2 xs = head (reverse xs) 
 
 -- ex 4
 
+last3 :: [Int] -> Int
+last3 xs = head (drop (length xs - 1) xs) 
+
+-- ex 5
+
+init2 :: [Int] -> [Int]
+init2 xs = take(length xs - 1) xs
